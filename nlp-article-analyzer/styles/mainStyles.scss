@@ -1,0 +1,13 @@
+@import 'baseStyles';
+@import 'headerStyles';
+@import 'footerStyles';
+@import 'formStyles';
+
+main {
+    padding: 25px;
+}
+
+#analysis-results {
+    text-align: center;
+    margin-top: 25px;
+}

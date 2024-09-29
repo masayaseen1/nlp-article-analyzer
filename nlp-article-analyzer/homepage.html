@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Analyzer</title>
+    <link rel="stylesheet" href="styles/mainStyles.scss">
+</head>
+<body>
+    <header>
+        <h1>Analyze Your Article</h1>
+    </header>
+
+    <main>
+        <form id="url-form">
+            <label for="article-link">Enter Article URL:</label>
+            <input type="text" id="article-link" name="article-link" required>
+            <button type="submit">Analyze</button>
+        </form>
+
+        <section id="analysis-results">
+            <h2>Results</h2>
+            <p id="result-polarity"></p>
+            <p id="result-subjectivity"></p>
+            <p id="result-snippet"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Article Analyzer</p>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

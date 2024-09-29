@@ -1,0 +1,22 @@
+form {
+    margin: 25px auto;
+    text-align: center;
+
+    label {
+        font-size: 1.3em;
+    }
+
+    input {
+        padding: 8px;
+        margin: 15px 0;
+        width: 320px;
+    }
+
+    button {
+        padding: 12px 25px;
+        background-color: #2196F3;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+}
